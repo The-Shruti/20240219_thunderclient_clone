@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <nav class="navbar">
+                <select id="methodSelect" class="dropbtn">
+                  <option value="GET">GET</option>
+                  <option value="POST">POST</option>
+                  <option value="PUT">PUT</option>
+                  <option value="DELETE">DELETE</option>
+                </select>
+              <input type="text" id="urlInput" placeholder="Enter URL">  
+              <button id="sendRequestBtn">Send</button> 
+            <div class="additional-buttons">
+            <button class="navButton">Query</button>
+            <button class="navButton">Headers</button>
+            <button class="navButton">Auth</button>
+            <button class="navButton">Body</button>
+            <button class="navButton">Test</button>
+            <button class="navButton">Pre Run</button>
+        </div>
+            </nav> 
+            <div class="query-parameters-section">
+                <!-- Content for Query Parameters -->
+                <h3 id="query-text">Query Parameters</h3> 
+                <input type="checkbox" id="param1" name="param1"> 
+                <input type="text" class="value" id="parameter" name="value1" placeholder="Parameter">
+                <input type="text" class="value" id="value" name="value2" placeholder="Value">
+            </div>
+          </div>
+    <div class="right-section"> 
+        <nav class="navbar1"> 
+          <ul class="status-list">
+            <li>Status:<span style="color: green;">200 OK</span></li>
+            <li>Size:<span style="color: green;">3.4 KB</span></li>
+            <li>Time:<span style="color: green;">8 ms</span></li>
+        </ul> 
+        <div class="additional-button">
+          <button class="navButton">Response</button>
+          <button class="navButton">Headers</button>
+          <button class="navButton">Cookies</button>
+          <button class="navButton">Result</button>
+          <button class="navButton">Docs</button>
+      </div>
+        
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: black;
+  }
+
+.container {
+    display: flex;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+  }
+  
+  .left-section {
+    border-right: 2px solid white; 
+    padding-bottom: 800px;
+  }
+  
+   
+  .navbar {
+    border-bottom: 2px solid white; 
+    margin-top: 30px;
+    padding-top: 2px; 
+    
+  }  
+
+.left-section .dropbtn { 
+    margin-bottom: 2px;  
+    background-color: black;
+    color: white;
+    
+  }
+  
+.left-section #urlInput {
+    /* Add margin-top to move the elements slightly above */ 
+    margin-bottom: 10px;  
+    width: 550px; 
+    background-color: black; 
+    color: white; 
+    margin-left: 2px;
+}
+ 
+#sendRequestBtn{
+    background-color: blue; 
+    color: white;
+} 
+
+.additional-buttons {
+    margin-bottom: 10px; /* Add margin-top for spacing */
+} 
+  
+  .additional-buttons .navButton {
+    background-color: black; /* Set background color of buttons to black */
+    color: white; /* Set text color of buttons to white */
+    margin-right: 40px; /* Add margin-right for spacing between buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+  }
+  
+  .additional-buttons .navButton:hover {
+    background-color: #333; /* Darken background color on hover */
+  } 
+#query-text {
+    color: white; /* Set color of h3 to white */ 
+    margin-left: 20px; 
+    margin-top: 50px;
+ } 
+
+.value{
+    background-color: black; 
+    color: white; 
+    width: 320px; 
+    border: none; 
+    border-bottom: solid grey;  
+    margin-left: 15px;
+
+}  
+
+#param1{
+    margin-left: 10px;
+} 
+
+.navbar1 { 
+    height: 77px;  
+    margin-right: 7px;  
+    border-bottom: 2px solid white;  
+}   
+
+.status-list li{
+  color:white;
+  display: inline;  
+  padding-right: 30px; 
+ 
+  
+}  
+
+.status-list li span {
+  margin-left: 5px; /* Add margin to create space between Status: and 200 OK */
+} 
+
+.additional-button .navButton {
+  background-color: black; /* Set background color of buttons to black */
+  color: white; /* Set text color of buttons to white */
+  margin-right: 40px; /* Add margin-right for spacing between buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  margin-top: 15px; 
+
+}
